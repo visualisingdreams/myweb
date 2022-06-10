@@ -27,13 +27,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://13.231.141.7:8081/repository/sample-snapshots/</url>
+		    <id>test-artifactory-repo</id>
+		    <url>http://http://ec2-43-204-144-231.ap-south-1.compute.amazonaws.com:8082//repository/sample-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://13.231.141.7:8081/repository/sample-releases/</url>
+		    <id>test-artifactory-repo</id>
+		    <url>http://http://ec2-43-204-144-231.ap-south-1.compute.amazonaws.com:8082//repository/sample-releases/</url>
 		</repository>
   	</distributionManagement>
 	
